@@ -1,0 +1,14 @@
+body {
+    background-image: url(https://cdn.pixabay.com/photo/2016/11/19/13/57/drum-set-1839383_1280.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat-y;
+}
+
+.card {
+    transition: transform 0.2s ease;
+}
+
+.card:hover {
+    transform: scale(1.01);
+}
